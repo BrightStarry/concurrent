@@ -13,5 +13,9 @@
         local read/ local write/ remote read/ remote write几种操作修改数据，使其保持一致；
 * 乱序执行优化：处理器为提高运算速度执行时打乱代码原有顺序        
 
-
+#### 并发模拟
+* Postman: 模拟Http请求工具，它也可以进行并发测试（最好安装windows版，chrome版少一些功能）
+* Apache Bench（AB）： Apache附带的工具，测试网站性能
+* JMeter： Apache组织中的压测工具
+* 代码：使用Semaphore、CountDownLatch等(查看ConcurrentTest类)
 

@@ -1,4 +1,4 @@
-package com.zx.annoations;
+package com.zx.concurrent.annoations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
